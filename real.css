@@ -1,0 +1,423 @@
+header #bar {
+    height: 4px;
+    background-color: #009223;
+}
+
+header #login {
+    list-style: none;
+    position: absolute;
+    right: 25px;
+    top: 40px;
+}
+
+header #logoimg {
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    margin-left: -101px;
+    /* transition-duration: 0.3s; */
+    display: block;
+    width: 202px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 0px;
+    line-height: 0px;
+    text-indent: -9999px;
+}
+
+header #login_ {
+    color: #666666;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    padding-left: 4mm;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 98px;
+    text-align: center;
+}
+
+nav #main-menu {
+    font-size: 18px;
+    color: #292929;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    position: relative;
+    z-index: 3;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    /* margin-block-start: 0em; 높이 */
+}
+
+li {
+    font-size: 18px;
+    color: #292929;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    display: inline-block;
+}
+
+nav #main-menu li a {
+    font-size: 0.85rem;
+    font-size: 18px;
+    color: #292929;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    display: block;
+    padding: 14px 80px;
+}
+
+nav #main-menu li a:hover {
+    color: #009223;
+}
+
+nav #main-menu li:hover #sub-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+nav #sub-menu {
+    position: absolute;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in; /* 부드럽게 */
+}
+
+nav #sub-menu > li {
+    padding: 10px 50px;
+}
+  
+nav #sub-menu > li >  a {
+    font-size: 15px;
+    color: #666666;
+    padding: 8px 0 9px;
+    text-decoration: none;
+}
+
+nav #sub-menu > li >  a:hover {
+    text-decoration: underline;
+}
+
+.event #carouselExampleIndicators {
+    margin-top: 170px;
+}
+
+.container #quik_link {
+    padding-left: 8mm;
+}
+
+.container #quik_link #quik_link_content {
+    overflow: hidden;
+    /*넘치는 부분은 잘려서 보이게*/
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 1170px;
+    margin-left: -585px;
+    text-align: right;
+    z-index: 5;
+}
+
+.franchise {
+    background-color: #ffce32;
+    color: black;
+    border-radius: 30px 0 0 0;
+    float: right;
+    transition-duration: 0.2s;
+    letter-spacing: -0.02em;
+    display: block;
+    width: 300px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 21px;
+    top: -25px;
+    /* right: 580px; */
+    padding: 7mm;
+}
+
+.store {
+    background-color: #009223;
+    color: white;
+    border-radius: 0 0 30px 0;
+    float: right;
+    transition-duration: 0.2s;
+    letter-spacing: -0.02em;
+    display: block;
+    width: 300px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    font-size: 21px;
+    top: -25px;
+    /* right: -20px; */
+    padding: 6mm;
+}
+
+.container .subway_menu .subway_menu_text {
+    color: #292929;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url("https://www.subway.co.kr/images/main/bul_tit.png");
+    background-repeat: no-repeat;
+    /*반복하지 않음(하나만)*/
+    display: inline-block;
+    /* background-position: ; */
+    padding: 10px 0 0 25px;
+    /*위, 왼쪽 패딩값 줌*/
+    
+
+}
+
+/*ul 태그 중에서 class속성에 menu를 "독립적으로" 포함하고 있는 태그만 적용*/
+ul[class~="menu"] {
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    /* padding-left: 340px;  */
+    position: absolute;
+    right: 0;
+
+}
+
+.container .subway_menu .menu #m {
+    color: #666666;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.container .subway_menu .menu #m strong{
+    color: #009223;
+}
+.container .subway_menu_list #mi{
+    padding-left: 4.5rem
+}
+.container .subway_menu_list #mi #wrap .menu_title {
+    font-size: 18px;
+    color: #292929;
+}
+
+.container .subway_menu_list {
+    height: 320px;
+    margin: 0;
+}
+
+.container .subway_menu_list #wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+.container .subway_menu_list #mi {
+    padding: 0 0 20mm 20mm;
+
+}
+
+.container .subway_menu_list #wrap p {
+    font-size: 13px;
+    color: #999999;
+    line-height: 21px;
+    opacity: 1;
+    width: 260px;
+    margin: 0 auto;
+    letter-spacing: -0.04em;
+}
+
+.section_subway {
+    width: 1280px;
+    margin: 0 auto; /* 위아래좌우여백 0, 중앙에 배치*/
+    padding: 80px 0; /*아래 간격*/
+}
+
+.section_subway .content_top {
+    display: inline-block;
+}
+
+.section_subway .content_top .utilization {
+    background: url(https://www.subway.co.kr/images/main/bg_utilization.png) 0 0 no-repeat;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin-left: 55px;
+    float: left;
+}
+
+.section_subway .content_top .utilization p {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    position: absolute;
+    left: 39px;
+    top: 38px;
+}
+
+/*section_subway안에 content_top안에 utilization안에 btn이라는 뜻*/
+.section_subway .content_top .utilization .btn {
+    position: absolute;
+    left: 41px;
+    bottom: 42px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    /*동그랗게 하는거*/
+    width: 92px;
+}
+
+.section_subway .content_top .utilization .btn span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.section_subway .content_top .history {
+    float: left;
+    width: 825px;
+    position: relative;
+}
+
+.section_subway .content_top .history p {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    position: absolute;
+    left: 410px;
+    top: 38px;
+}
+
+.section_subway .content_top .history .btn {
+    position: absolute;
+    left: 410px;
+    bottom: 42px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 135px;
+}
+
+.section_subway .content_top .history .btn span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.section_subway .content_bottom {
+    margin: 30px 0 0 55px;
+    display: inline-block;
+}
+
+.section_subway .content_bottom .whats_new {
+    background-color: #fff;
+    width: 870px;
+    height: 300px;
+    border-radius: 30px 0 30px 0;
+    position: relative;
+    float: left;
+    border: black 1px solid;
+}
+
+
+.section_subway .content_bottom .whats_new .hd {
+    position: absolute;
+    /*부모의 영향(컨테이너를 중심으로한다는 뜻)*/
+    display: block;
+    width: 200px;
+    top: 80px;
+    left: 60px;
+}
+
+.section_subway .content_bottom .whats_new .hd h2 {
+    font-size: 30px;
+    font-weight: bold;
+    background: url(https://www.subway.co.kr/images/main/bul_tit.png) 0 0 no-repeat;
+    min-height: 60px;
+    padding: 17px 0 0 25px;
+    margin-bottom: 10px;
+}
+
+.section_subway .content_bottom .whats_new .hd p {
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 10px 0 0 -20px;
+}
+
+.section_subway .content_bottom .whats_new .board_list {
+    position: absolute;
+    left: 389px;
+    top: 80px;
+}
+
+.section_subway .content_bottom .whats_new .board_list ul li {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 37px;
+}
+
+.section_subway .content_bottom .whats_new .board_list a {
+    color: #999999;
+    font-size: 14px;
+    padding: 33px 33px 8px;
+    /*위, 왼, 아래*/
+    text-decoration-line: none;
+    /*밑줄 제거*/
+}
+
+.section_subway .content_bottom #carouselExampleIndicators_b {
+    float: left;
+    width: 270px;
+    height: 300px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 30px 0 30px;
+}
+
+/* .quick_menu ul li .icon {
+    background: url(https://www.subway.co.kr/images/main/icon_quickmenu.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+
+footer {
+    background-color: #292929;
+    color: #666666;
+    padding: 22px 0; /*아래*/
+    position: relative;
+}
+footer .content .util_menu{
+padding-left: 3rem;
+}
+footer .content .util_menu li a {
+    text-decoration: none;
+    color: #666666;font-size: 14px;
+    letter-spacing: -0.05em;
+    padding-left: 1rem;
+}
+
+footer .content .util_menu li a strong{
+    color: #fff;
+}
+
+footer #adress{
+    margin-top: 40px;
+    padding-left: 6rem;
+    letter-spacing: -0.01em;
+}
